@@ -42,7 +42,7 @@ class ResidualDenseBlock_5C(nn.Module):
     def __init__(self, nf=64, gc=32, bias=True):
         super(ResidualDenseBlock_5C, self).__init__()
         # gc: growth channel, i.e. intermediate channels
-        self.conv1x1 = conv1x1(nc, gc)
+        self.conv1x1 = conv1x1(nf, gc)
         self.noise = GaussianNoise() 
         self.conv1 = nn.Conv2d(nf, gc, 3, 1, 1, bias=bias)
         self.conv2 = nn.Conv2d(nf + gc, gc, 3, 1, 1, bias=bias)
