@@ -42,7 +42,7 @@ network_D:
 #### path
 path:
   pretrain_model_G: /content/gdrive/My Drive/ESRGAN/pretrained_models/RRDB_PSNR_x4.pth
-  strict_load: true
+  strict_load: false
   resume_state: ~
 
 #### training settings: learning rate scheme, loss
