@@ -1,4 +1,4 @@
-name: RRDB_ESRGAN_x4
+name: ESRGANplus_x4
 suffix: ~  # add suffix to saved images
 model: sr
 distortion: sr
