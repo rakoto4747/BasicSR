@@ -24,4 +24,4 @@ network_G:
 
 #### path
 path:
-  pretrain_model_G: /content/gdrive/My Drive/ESRGAN/pretrained_models/RRDB_ESRGAN_x4.pth
+  pretrain_model_G: /content/gdrive/My Drive/ESRGAN/ESRGAN-test/models/ESRGANplus_x4.pth
