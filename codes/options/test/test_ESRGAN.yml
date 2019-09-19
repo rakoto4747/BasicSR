@@ -8,10 +8,10 @@ gpu_ids: [0]
 
 datasets:
   test_1:  # the 2st test dataset
-    name: set14
+    name: Flickr2K
     mode: LQGT
-    dataroot_GT: /content/gdrive/My Drive/ESRGAN/datasets/Set14
-    dataroot_LQ: /content/gdrive/My Drive/ESRGAN/datasets/Set14_LR_sub_bicLRx4
+    dataroot_GT: /content/gdrive/My Drive/ESRGAN/datasets/flickr2k
+    dataroot_LQ: /content/gdrive/My Drive/ESRGAN/datasets/flickr2k_LR
 
 #### network structures
 network_G:
